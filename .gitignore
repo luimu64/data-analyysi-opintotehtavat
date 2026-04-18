@@ -1,0 +1,34 @@
+# --- Pythonin väliaikaistiedostot ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.env
+
+# --- Data ja Lokit (Liian isoja tai muuttuvia Gitille) ---
+*.log
+*.csv
+# Jos haluat sallia tietyt pienet CSV-tiedostot, poista kommentti alta:
+# !opintotehtava-1/ip_metadata.csv
+
+# --- Koneoppimismallit ja työkalut (Binääritiedostot) ---
+# Nämä generoidaan koodilla, joten niitä ei yleensä tallenneta Gittiin
+*.keras
+*.pkl
+*.json
+# Jos haluat pitää class_names.json:n tallessa, poista se listalta
+
+# --- Visualisoinnit ja kuvat ---
+# Jos haluat tallentaa lopulliset kuvat raporttiin, voit jättää nämä pois täältä.
+# Mutta jos kuvia syntyy satoja eri testeistä, on parempi ignoorata ne:
+*.png
+*.html
+
+# --- Käyttöjärjestelmäkohtaiset ---
+.DS_Store
+.idea/
+.vscode/
+
+*.pdf
